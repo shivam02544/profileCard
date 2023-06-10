@@ -3,7 +3,10 @@ const subs = document.querySelectorAll(".btn"),
     like = document.querySelector(".bx-heart");
 
 subs[0].addEventListener('click', () => {
-    subs[0].innerText = 'Subscribed';
+    if(subs[0].innerText = 'Subscribe')
+        subs[0].innerText = 'Subscribed';
+    else
+        subs[0].innerText = 'Subscribe'
 })
 
 subs[1].addEventListener('click', () => {

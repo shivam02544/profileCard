@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, .8)
+}
+
+.main-con {
+    overflow: hidden;
+    height: 23em;
+    width: 21em;
+    border-radius: 5%;
+    box-shadow: 0 0 30px gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-con .upper {
+    width: 100%;
+    height: 35%;
+    background-color: rgba(60, 49, 216, 0.994);
+}
+
+.upper .dp {
+    margin: 0 auto;
+    height: 7.4em;
+    width: 7.4em;
+    border: 3px solid rgba(60, 49, 216, 0.994);
+    border-radius: 50%;
+    transform: translateY(1.65em);
+    position: relative;
+}
+
+.dp .img {
+    background: url(./WhatsApp\ Image\ 2023-06-10\ at\ 3.06.43\ PM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 93%;
+    width: 93%;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 2.9px;
+    bottom: -1px;
+}
+
+.main-con .content {
+    /* border: 2px solid black; */
+    margin-top: 1.8em;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .name {
+    font-size: 1.35em;
+}
+
+.content .about {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .5);
+    margin-top: .4em;
+}
+
+.content .logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 75%;
+    height: 15%;
+}
+
+.logos .logo {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logos div:nth-child(1) {
+    background-color: rgb(34, 34, 135);
+}
+
+.logos div:nth-child(2) {
+    background-color: rgb(17, 168, 202);
+}
+
+.logos div:nth-child(3) {
+    background-color: rgb(214, 61, 148);
+}
+
+.logos div:nth-child(4) {
+    background-color: red;
+}
+
+.logo i {
+    font-size: 1.4em;
+    color: white;
+}
+
+.content .btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4em;
+    width: 80%;
+    height: 20%;
+}
+
+.btns .btn {
+    width: 45%;
+    height: 80%;
+    background: rgba(37, 23, 235, 0.8);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: .94em;
+    border-radius: 120px;
+    cursor: pointer;
+}
+
+.content .intract {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 90%;
+}
+
+.intract .int {
+    width: 60%;
+    text-align: center;
+    color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.intract div:nth-child(2) {
+    border-left: .5px solid gray;
+    border-right: .5px solid gray;
+}
+
+.int i {
+    margin-right: .2em;
+}
